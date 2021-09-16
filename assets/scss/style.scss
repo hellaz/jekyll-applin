@@ -234,7 +234,7 @@ input[type='submit'] {
 		}
 	}
 	p{
-		margin:0;
+		margin:0 0 10px 0;
 	}
 
 	@include tablet{
@@ -263,7 +263,7 @@ input[type='submit'] {
     height: 700px;
     border-bottom-left-radius: 270px;
     border-bottom-right-radius: 270px;
-    background: $bg-color2;
+    background: $bg-color1;
     display: block;
     position: absolute;
     transform: rotate(6deg);
@@ -282,11 +282,11 @@ input[type='submit'] {
 	}
   }
   .header-banner{
-     padding:180px 50px 0px 0px;
+     padding:50px 0px 0px 0px;
 	 z-index: 3;
      position: relative;
 	 @include desktop{
-	    padding:100px 0px 0px 0px;
+	    padding:50px 0px 0px 0px;
 	 }
 	 @include laptop{
 	    padding:40px 0px 100px 0px;
@@ -490,7 +490,7 @@ input[type='submit'] {
   background-color: transparent;
   a {
     padding: 15px 15px 15px 15px;
-    color: $font-color4;
+    color: $font-color2;
 
 	@include laptop{
 	   color:$font-color-base;
@@ -648,6 +648,7 @@ input[type='submit'] {
 .header-banner{
 	.banner-content{
 	   padding-right:$inner-30;
+     padding-top:$inner-90;
 	   position:relative;
 	   z-index:2;
 
@@ -658,6 +659,11 @@ input[type='submit'] {
 	      padding-right:0;
 	   }
 	}
+
+  .banner-picture{
+    z-index:2;
+    width: 100%;
+  }
 
 	.banner-mockup{
 	  z-index:2;
@@ -752,7 +758,7 @@ input[type='submit'] {
 
 ============================================== */
 .line-color1{
-	background-color:#ff0018;;
+	background-color:#1033F6;
 }
 .line-color2{
 	background-color:#b0ffca;
@@ -814,7 +820,7 @@ input[type='submit'] {
 	overflow:hidden;
 	position:relative;
 	box-shadow:$box-shadow;
-	padding:$inner-90 $inner-30  $inner-70;
+	padding:$inner-50 $inner-30;
 	margin-bottom:$inner-30;
 	text-align:center;
 	border-radius:$border-radius;
@@ -890,6 +896,7 @@ input[type='submit'] {
 	}
 
 	.image-mockup{
+      width: 100%;
 
 		@include tablet{
 		  max-width:100%;
@@ -1250,12 +1257,12 @@ swiper-container .swiper-slide-active{
 			margin:0;
 		}
 		a{
-			color:$font-color2;
+			color:$font-color3;
 			font-weight:$font-weight-semibold;
 			display:block;
 			margin-bottom:5px;
 			&:hover{
-			   color:$font-color3;
+			   color:$font-color2;
 			}
 		}
 		span{
@@ -2197,6 +2204,7 @@ a.scrollToTop:hover, a.scrollToTop:active {
 
 	img{
 	    position:relative;
+      width: 100%;
 		z-index:3;
 	}
 }
@@ -2208,11 +2216,11 @@ a.scrollToTop:hover, a.scrollToTop:active {
 		margin-bottom:10px;
 		h5{
 			margin:0;
-			color:rgba($font-color4, 0.9);
+			color:rgba($font-color-base, 0.9);
 		}
 	}
 	p{
-		color:rgba($font-color4, 0.9);
+		color:rgba($font-color-base, 0.9);
 	}
 	.widget-list{
 		margin:0;
@@ -2220,7 +2228,7 @@ a.scrollToTop:hover, a.scrollToTop:active {
 			margin-bottom:5px;
 		}
 		li a{
-			color:rgba($font-color4, 0.9);
+			color:rgba($font-color-base, 0.9);
 
 			&:hover{
 			    color: $font-color3;
@@ -2228,12 +2236,15 @@ a.scrollToTop:hover, a.scrollToTop:active {
 		}
 	}
     .social-link{
+    width: fit-content;
+    margin: auto;
+    padding-top: 20px;
 		li{
 			border-top:1px solid transparent;
 		}
 		li a{
 			font-size:20px;
-			color: $font-color4;
+			color: $font-color-base;
       transition: $transition-base;
 			&:hover{
 			  color: $font-color3;
@@ -2242,7 +2253,7 @@ a.scrollToTop:hover, a.scrollToTop:active {
 	}
 	form{
 		@include placeholder {
-		color: $font-color4;
+		color: $font-color-base;
 	}
 		input{
 			 @include form-size(
@@ -2269,11 +2280,11 @@ a.scrollToTop:hover, a.scrollToTop:active {
 	z-index:2;
 	p,a{
 		margin:0;
-		color:rgba($font-color4, 0.9);
+		color:rgba($font-color-base, 0.9);
 	}
 	a:hover{
 	   &:hover{
-		  color:rgba($font-color4, 1);
+		  color:rgba($font-color-base, 1);
 	   }
 	}
 }

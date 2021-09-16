@@ -6,17 +6,17 @@
 
 # Site settings
 
-title: "Wingzy · Ask for the moon"
-email: "contact@wingzy.com"
-description: "Save time & secure knowledge accross your enterprise. Simply by powering peer-to-peer questions & anwsers with Wingzy AI."
-keywords: knowledge management collective intelligence community learning entreprise apprenante organisation KM
+title: "Ask for the moon"
+email: "contact@askforthemoon.com"
+description: "Q&A platform for fast-learning industries"
+keywords: industry operational knowledge management collective intelligence community learning entreprise apprenante organisation KM
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://home.wingzy.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://home.askforthemoon.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wingzy_com
 github_username:  wingzy
-logo: "/assets/images/wingzy_logo.png"
+logo: "/assets/askforthemoon_logo.png"
 
-cover_image: "/assets/social/wingzy_banner_rs.png"
+cover_image: "/assets/social/askforthemoon_banner_rs.png"
 
 permalink: "/:title"
 # Build settings

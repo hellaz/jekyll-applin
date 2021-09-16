@@ -4,9 +4,9 @@
 // Background Colors
 
 $bg-color1:                   #ffffff !default;
-$bg-color2:                   #212433;
-$bg-color3:                   #4b5180 ;
-$bg-color4:                   #fafcff ;
+$bg-color2:                   #F8F8FF;
+$bg-color3:                   #212433 ;
+$bg-color4:                   #F8F8FF ;
 $bg-overlay:                  #212433 !default;
 
 
@@ -31,16 +31,16 @@ $inner-90:  90px;
 
 // Links
 
-$link-color: #FF0018 !default;
+$link-color: #1033F6 !default;
 
 
 // Fonts Color
 
-$font-color-base:         #777777  !default;
-$font-color2:             #041e49 ;
-$font-color3:             #ff0018 ;
+$font-color-base:         #000000  !default;
+$font-color2:             #B3B6C6 ;
+$font-color3:             #1033F6 ;
 $font-color4:             #ffffff ;
-$placeholder-color:       #777777  !default;
+$placeholder-color:       #B3B6C6  !default;
 
 // Social Color
 
@@ -67,7 +67,7 @@ $h3-font-size:                $font-size-base * 1.75;
 $h4-font-size:                $font-size-base * 1.5;
 $h5-font-size:                $font-size-base * 1.25;
 $h6-font-size:                $font-size-base ;
-$headings-color:              $font-color2;
+$headings-color:              $font-color-base;
 $headings-font-family:        $font-family-base;
 $headings-line-height:        1.4 !default;
 $big-line-height:             1.3 ;
@@ -83,7 +83,7 @@ $big-size4:                $font-size-base * 1.5;
 
 
 $form-bg:                 #ffffff !default;
-$form-bg2:                #ff0018 ;
+$form-bg2:                #1033F6 ;
 $form-bg3:                #f5f5f5;
 $form-bg4:                #000000;
 
@@ -93,12 +93,12 @@ $form-size3:              24px;
 
 
 $form-color:             #ffffff !default;
-$form-color2:            #ff0018;
+$form-color2:            #1033F6;
 $form-color3:            #777777;
 
 $form-border:            1px solid #e3e3e3 !default;
-$form-border2:           1px solid #ff0018 ;
-$form-border3:           1px solid #ffffff ;
+$form-border2:           1px solid #1033F6 ;
+$form-border3:           1px solid #1033F6 ;
 $form-border4:           1px solid #f5f5f5 ;
 $form-border5:           1px solid #000000 ;
 
@@ -111,16 +111,16 @@ $form-space-h:              30px !default;
 
 
 $form-change-bg:                 #ffffff !default;
-$form-change-bg2:                #ff0018 ;
+$form-change-bg2:                #1033F6 ;
 $form-change-bg3:                #f5f5f5;
 $form-change-bg4:                #000000;
 
 $form-change-color:             #ffffff !default;
-$form-change-color2:            #ff0018;
+$form-change-color2:            #1033F6;
 $form-change-color3:            #777777;
 
 $form-change-border:            1px solid #e3e3e3 !default;
-$form-change-border2:           1px solid #ff0018 ;
+$form-change-border2:           1px solid #1033F6 ;
 $form-change-border3:           1px solid #ffffff ;
 
 // Component
