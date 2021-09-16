@@ -1,0 +1,34 @@
+ {% if page.url == "/" %}
+ <!-- Navigation For Home Page -->
+<nav class="themeix-navbar">
+    <ul class="slimmenu main-menu">
+        <li><a href="#why" class="js-scroll-trigger">Why?</a></li>
+        <li><a href="#app" class="js-scroll-trigger">Solution</a></li>
+        <li><a href="#testimonials" class="js-scroll-trigger">Customers</a></li>
+        <li><a href="#pricing" class="m-r-40 js-scroll-trigger">Pricing</a></li>
+        <li><a href="#contact" class="js-scroll-trigger">Contact</a></li>
+		    <li><a href="https://app.wingzy.com">Sign in</a></li>
+    </ul>
+</nav>
+ {% else %}
+  <!-- Navigation For Inner Pages -->
+<nav class="themeix-navbar">
+    <ul class="slimmenu main-menu">
+        <li><a href="{{site.url}}">Home</a></li>
+
+        <li>
+            <a href="#" >Pages</a>
+            <ul>
+            <li><a href="/welcome-to-jekyll">Blog Details</a></li>
+            <li><a href="/authors/themeix">Author</a></li>
+            <li><a href="/tag/app">Tag</a></li>
+            <li><a href="/category/jekyll">Category</a></li>
+
+            </ul>
+        </li>
+		<li><a href="/pages/blog">Blog</a></li>
+        <li><a href="/pages/authors" class="js-scroll-trigger">Authors</a></li>
+        <li><a href="/pages/contact" class="js-scroll-trigger">Contact</a></li>
+    </ul>
+</nav>
+ {% endif %}
