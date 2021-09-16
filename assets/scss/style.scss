@@ -257,7 +257,7 @@ input[type='submit'] {
    overflow:hidden;
 }
 .header-area{
-    margin-bottom: 430px;
+    margin-bottom: 300px;
 	&:before{
     content: "";
     height: 700px;
@@ -451,8 +451,10 @@ input[type='submit'] {
 	}
 
 	.header-logo{
-	   padding:15px 0;
-	   float:left;
+	   padding:0;
+     img {
+       width: 100%;
+     }
 	}
 
    .themeix-navbar{
@@ -590,9 +592,9 @@ input[type='submit'] {
 
 .menu-collapser{
    .collapse-button{
-         top: -38px;
+         top: 0;
 		 .icon-bar{
-		    background-color:$bg-color1;
+		    background-color:$font-color2;
 		 }
    }
 }
@@ -605,6 +607,7 @@ input[type='submit'] {
    }
 }
 }
+/*
 @-webkit-keyframes banner-mockup {
   0% {
     -webkit-transform: translateY(8px);
@@ -645,6 +648,8 @@ input[type='submit'] {
     transform: translateY(8px);
   }
 }
+*/
+
 .header-banner{
 	.banner-content{
 	   padding-right:$inner-30;
@@ -662,24 +667,27 @@ input[type='submit'] {
 
   .banner-picture{
     z-index:2;
-    width: 100%;
   }
 
 	.banner-mockup{
 	  z-index:2;
 	   position:absolute;
-		animation-name: banner-mockup-sink, banner-mockup;
+		/*animation-name: banner-mockup-sink, banner-mockup;
 		animation-duration: .3s, 1.5s;
 		animation-delay: 0s, .3s;
 		animation-timing-function: ease-out, ease-in-out;
 		animation-iteration-count: 1, infinite;
 		animation-fill-mode: forwards;
-		animation-direction: normal, alternate;
+		animation-direction: normal, alternate;*/
 
 		@include tablet{
-	  display:none;
-
-	}
+	     //display:none;
+       position: static;
+       margin-top: $inner-50;
+  	   img{
+  	       max-width:100%;
+  	   }
+    }
 	@include desktop{
 	   margin:0;
 	   img{
@@ -839,7 +847,6 @@ input[type='submit'] {
 	}
 	.feature-content{
 		h3,h4,h5{
-
 			margin-bottom:$inner-30 - 10;
 		}
 		p{
@@ -860,7 +867,8 @@ input[type='submit'] {
 		transform: rotate(-55deg);
 		}
 		&:hover{
-			background-color:$bg-color2;
+  		transition:$transition-base;
+			background-color:$bg-color3;
 			*{
 				color:$font-color4;
 			}
