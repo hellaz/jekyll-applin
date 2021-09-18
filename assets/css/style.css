@@ -1740,6 +1740,7 @@ swiper-container .swiper-slide-active {
 .testimonial-slider .author-desc .author-logo {
   height: 100px;
   width: auto;
+  max-width: 100%;
   margin: 0 auto 40px; }
 
 .testimonial-slider .author-name h4, .testimonial-slider .author-name h5 {

@@ -1,3 +1,12 @@
+- name: Romain Reboulleau
+  role: Knowledge Management lead
+  title: Framatome
+  quote: >
+    When we were looking for a Q&A application, Ask for the moon stood out by offering a people-centric approach. It allowed us to address several key aspects of our KM program with one application.<br/><br/>
+    In addition, to get past the investment stage, the system for objectively evaluating the Return On Investment was decisive.
+  face: assets/testimonials/romain.jpg
+  logo: assets/testimonials/framatome.png
+  link: https://www.linkedin.com/in/romain-reboulleau-39b75317b/
 - name: Marianne Gallon
   role: Careers & development Director
   title: Bouygues group
@@ -17,29 +26,20 @@
   face: assets/testimonials/edward.jpg
   logo: assets/testimonials/adp.png
   link: https://twitter.com/ArkwrightEdward
-- name: Bénédicte Tilloy
-  role: SNCF CHRO
-  title: SNCF
+- name: Pouya Farrahi Far
+  role: Thermohydraulics engineer
+  title: Framatome
   quote: >
-    Wingz is the tool I always dreamt of while I was CHRO at SNCF: a simple & intuitive solution enabling employees to describe what they know whith their words, in order for their colleague to find them and ask them for help at the right time.<br/><br/>
-    <a href="https://www.youtube.com/watch?v=4pLyGZAvzVo">Watch interview</a>
-  face: assets/testimonials/benedicte.jpg
-  logo: assets/askforthemoon_icon_256.png
-  link: https://fr.wikipedia.org/wiki/B%C3%A9n%C3%A9dicte_Tilloy
-- name: Henri Lachmann
-  role: Schneider Electric CEO
-  title: Schneider Electric
-  quote: >
-    The women and men are the one making a difference. With Ask for the moon we are able to know their skills and experience in order to spread them or access them quickly.<br/><br/>
-    <a href="https://www.youtube.com/watch?v=hzoN5oVQTHc">Watch interview</a>
-  face: assets/testimonials/henri.jpg
-  logo: assets/askforthemoon_icon_256.png
-  link: https://fr.wikipedia.org/wiki/Henri_Lachmann
+    Before Ask Framatome, I spent half my time repeating the same answers all over again. This is a game changer.<br/><br/>
+    Behind it's day-to-day simplicity, the tool accumulate a pleasing knowledge base. Often we find tips & tricks. That's cool.
+  face: assets/testimonials/pouya.jpg
+  logo: assets/testimonials/framatome.png
+  link: https://www.linkedin.com/in/pouyafarrahifar/
 - name: Marie Lévy
   role: Compliance lawyer
   title: Colas
   quote: >
-    I found the profile creation very easy, fast and intuitive. In less than 5 minutes, the profile is pretty much complete.<br/>
+    I found the profile creation very easy, fast and intuitive. In less than 5 minutes, the profile is pretty much complete.<br/><br/>
     Searching for users is also very easy, and with a click we have a good idea of their profile. So useful to be able to find people by entities/teams.<br/>
     In conclusion, I love Ask for the moon!
   face: assets/testimonials/marie.jpg
