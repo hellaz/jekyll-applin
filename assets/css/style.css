@@ -2465,7 +2465,7 @@ swiper-container .swiper-slide-active {
 
 ============================================== */
 a.scrollToTop {
-  margin: 0 15px 15px 0;
+  margin: 0 25px 25px 0;
   color: #1033F6;
   text-align: center;
   text-decoration: none;
@@ -2591,7 +2591,7 @@ a.scrollToTop:hover, a.scrollToTop:active {
       border: 1px solid #e3e3e3; }
 
 .footer-copyright-wrapper {
-  padding-bottom: 30px;
+  padding-bottom: 90px;
   position: relative;
   z-index: 2; }
   .footer-copyright-wrapper p, .footer-copyright-wrapper a {
@@ -2599,6 +2599,25 @@ a.scrollToTop:hover, a.scrollToTop:active {
     color: rgba(0, 0, 0, 0.9); }
   .footer-copyright-wrapper a:hover:hover {
     color: black; }
+
+.footer-message {
+  padding: 10px;
+  width: 100%;
+  background-color: #FD484F;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10; }
+  @media (max-width: 768px) {
+    .footer-message {
+      font-size: 12px; } }
+  .footer-message p, .footer-message a {
+    margin: 0;
+    color: #ffffff; }
+  .footer-message a {
+    text-decoration: underline; }
+  .footer-message a:hover:hover {
+    color: #1033f6; }
 
 .footer-shape {
   position: absolute;

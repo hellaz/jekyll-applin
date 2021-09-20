@@ -2152,7 +2152,7 @@ button{
 ============================================== */
 
 a.scrollToTop {
-    margin: 0 15px 15px 0;
+    margin: 0 25px 25px 0;
     color: $font-color3;
     text-align: center;
     text-decoration: none;
@@ -2285,7 +2285,7 @@ a.scrollToTop:hover, a.scrollToTop:active {
 }
 
 .footer-copyright-wrapper{
-    padding-bottom:30px;
+    padding-bottom:90px;
     position:relative;
 	z-index:2;
 	p,a{
@@ -2295,6 +2295,31 @@ a.scrollToTop:hover, a.scrollToTop:active {
 	a:hover{
 	   &:hover{
 		  color:rgba($font-color-base, 1);
+	   }
+	}
+}
+
+.footer-message{
+    padding:10px;
+    width: 100%;
+    background-color: #FD484F;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+	  z-index:10;
+    @include tablet {
+      font-size: 12px;
+    }
+	p,a{
+		margin:0;
+    color: #ffffff;
+	}
+  a {
+    text-decoration: underline;
+  }
+	a:hover{
+	   &:hover{
+		  color:rgba($font-color3, 1);
 	   }
 	}
 }
