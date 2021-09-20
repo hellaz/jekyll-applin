@@ -282,17 +282,17 @@ input[type='submit'] {
 	}
   }
   .header-banner{
-     padding:50px 0px 0px 0px;
+     padding:0;
 	 z-index: 3;
      position: relative;
 	 @include desktop{
-	    padding:50px 0px 0px 0px;
+	    padding:0;
 	 }
 	 @include laptop{
-	    padding:40px 0px 100px 0px;
+	    padding:0;
 	 }
 	 @include tablet{
-	    padding:60px 0px 80px 0px;
+	    padding:40px 0px 80px 0px;
 	 }
   }
   @include desktop{
@@ -653,7 +653,7 @@ input[type='submit'] {
 .header-banner{
 	.banner-content{
 	   padding-right:$inner-30;
-     padding-top:$inner-90;
+     padding-top:140px;
 	   position:relative;
 	   z-index:2;
 
@@ -662,6 +662,7 @@ input[type='submit'] {
 	   }
 	   @include tablet{
 	      padding-right:0;
+        padding-top: $inner-70;
 	   }
 	}
 
